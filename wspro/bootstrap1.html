@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商品列表</title>
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+    <style type="text/css">
+        .table{
+            width: 80%;
+            margin: auto;
+
+        }
+        td,th{
+            width: 17%;
+            text-align: center;
+        }
+        .table tr td{
+            vertical-align: middle!important;
+            overflow: hidden;
+        }
+        td img{
+            width: 50px;
+            transition: all 1s;
+        }
+        td img:hover{
+            width: 90px;
+        }
+    </style>
+</head>
+<body>
+<table class="table table-bordered table-hover">
+    <caption class="bg-info text-center"><h2>商品列表</h2></caption>
+    <tr class="bg-warning">
+        <th>商品ID</th>
+        <th>商品名称</th>
+        <th>商品价格</th>
+        <th>商品数量</th>
+        <th>商品图片</th>
+        <th>商品操作</th>
+    </tr>
+    <tr>
+        <td>1001</td>
+        <td>判官</td>
+        <td>1000</td>
+        <td>1</td>
+        <td><img src="img/4.png" alt=""></td>
+        <td><button type="button" class="btn btn-danger">删除</button></td>
+    </tr>
+    <tr>
+        <td>1002</td>
+        <td>般若</td>
+        <td>1000</td>
+        <td>2</td>
+        <td><img src="img/5.png" alt=""></td>
+        <td><button type="button" class="btn btn-danger">删除</button></td>
+    </tr>
+    <tr>
+        <td>1003</td>
+        <td>阎魔</td>
+        <td>1000</td>
+        <td>1</td>
+        <td><img src="img/6.png" alt=""></td>
+        <td><button type="button" class="btn btn-danger">删除</button></td>
+    </tr>
+</table>
+
+
+<script src="jquery/dist/jquery.min.js"></script>
+<script src="bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
